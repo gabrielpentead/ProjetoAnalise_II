@@ -153,40 +153,45 @@ export const data = [
     type: 'hortalica'
   },
   {
-      imagem: 'pao.jpg',
-      nome: 'Pão Caseiro',
-      preco: 9.99,
-      unidade: 'Unidade',
-      type: 'outro' // Adicionado o tipo 'outro'
-  },
-  {
-      imagem: 'bolacha.jpg',
-      nome: 'Bolacha Caseira',
-      preco: 21.69,
-      unidade: 'Kg',
-      type: 'outro' // Adicionado o tipo 'outro'
-  },
-  {
-      imagem: 'queijo.jpg',
-      nome: 'Queijo Artesanal',
-      preco: 27.90,
-      unidade: 'Kg',
-      type: 'outro' // Adicionado o tipo 'outro'
-  },
-  {
-      imagem: 'geleia artesanal.jpg',
-      nome: 'Geleia Artesanal',
-      preco: 17.99,
-      unidade: '500g',
-      type: 'outro' // Adicionado o tipo 'outro'
-  },
-  {
-      imagem: 'Mel de abelha.jpg',
-      nome: 'Mel de Abelha',
-      preco: 27.89,
-      unidade: 'Kg',
-      type: 'outro' // Adicionado o tipo 'outro'
-  }
-  
+    id: 24,
+    image: 'pao.jpg',
+    name: 'Pão Caseiro',
+    price: 9.99,
+    unit: 'Unidade',
+    type: 'outro'
+},
+{
+    id: 25,
+    image: 'bolacha.jpg',
+    name: 'Bolacha Caseira',
+    price: 21.69,
+    unit: 'Kg',
+    type: 'outro'
+},
+{
+    id: 26,
+    image: 'queijo.jpg',
+    name: 'Queijo Artesanal',
+    price: 27.90,
+    unit: 'Kg',
+    type: 'outro'
+},
+{
+    id: 27,
+    image: 'geleia artesanal.jpg',
+    name: 'Geleia Artesanal',
+    price: 17.99,
+    unit: '500g',
+    type: 'outro'
+},
+{
+    id: 28,
+    image: 'Mel de abelha.jpg',
+    name: 'Mel de Abelha',
+    price: 27.89,
+    unit: 'Kg',
+    type: 'outro'
+}
+
 ]
 
