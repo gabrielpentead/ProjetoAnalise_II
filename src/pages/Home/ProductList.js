@@ -5,8 +5,8 @@ function ProductList({ products }) {
     <main className="row produto-page">
       <div className="col-12">
         <div className="row">
-          {products.map((product) => ( // Removi o índice aqui para usar o ID do produto como chave
-            <div key={product.id} className="produto-container-principal"> {/* Correção aqui */}
+          {products.map((product) => ( 
+            <div key={product.id} className="produto-container-principal"> {}
               <div className="produto-principal">
                 <Link to={`/paginapd/${product.id}`}>
                   <img src={product.image} alt={product.name} className="img-fluid" />
